@@ -1,0 +1,114 @@
+.index{
+    
+    display: flex;
+   
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+.heading
+{
+   display: flex;
+   color:blue;
+   font-size: 85px;
+   justify-self: center;
+   align-items: center;
+}
+.firstclick 
+{
+    display:flex;
+    flex-direction: column;
+    width:8em;
+    height:3.5em;
+    align-items: center;
+    color: white;
+    background-color: lightgreen;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 35px;
+}
+.firstpage {
+    height: max-content;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color:grey;
+}
+.onetoten{
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+    font-size: 60px;
+    justify-self: center;
+    align-items: center;
+}
+
+input{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width: 90px;
+    height:90px;
+    align-items: center;
+    border-color:black;
+    border-radius: 8px;
+    font-size: 55px;
+}
+#lastclick,#set,#re
+{
+   
+    width:8em;
+    height:3em;
+    align-items: center;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#msg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:10em;
+    width:20em;
+    padding-left: 2.3em;
+    font-size: 20px;
+}
+#message
+{
+    display: flex;
+   justify-content: center;
+   font-size: x-large;
+   height:45px;
+   width:11cm;
+   padding:10px;
+   border: solid black 2px;
+   border-radius: 10px;
+   align-items: center;
+   color: red;
+   background-color: whitesmoke;
+}
+#rlive{
+    font-size: xx-large;
+}
+.win{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.loss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(./assests/2.jpg);
+    background-size: 43em;;
+    position: relative;
+}
